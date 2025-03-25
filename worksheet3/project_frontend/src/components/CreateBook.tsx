@@ -41,7 +41,7 @@ const CreateBookComponent = () => {
                         <Link
                             href="/"
                             className="btn btn-outline-warning float-left">
-                            Show BooK List
+                            Show Book List
                         </Link>
                     </div>
                     <div
