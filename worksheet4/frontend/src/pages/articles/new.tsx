@@ -8,6 +8,7 @@ const NewDiscussion = () => {
     const [doi, setDoi] = useState("");
     const [summary, setSummary] = useState("");
     const[linkedDiscussion, setLinkedDiscussion] = useState("");
+
     const submitNewArticle = async (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault();
         console.log(
@@ -22,6 +23,7 @@ const NewDiscussion = () => {
             })
         );
     };
+    
     // Some helper methods for the authors array
     const addAuthor = () => {
         setAuthors(authors.concat([""]));
